@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from "./components/HeaderContainer/HeaderSection"
 import './App.css';
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <Header/>
     </div>
   );
 }
