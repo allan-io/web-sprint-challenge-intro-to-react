@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderSection from "./components/HeaderContainer/HeaderSection"
 import CardsPage from "./components/CardsPageContainer/CardsPage"
 import './App.css';
+import PaginationSection from './components/PaginationContainer/PaginationSection';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -15,6 +16,7 @@ const App = () => {
     <div className="App">
       <HeaderSection/>
       <CardsPage/>
+      <PaginationSection/>
     </div>
   );
 }
