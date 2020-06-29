@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from "./components/HeaderContainer/HeaderSection"
+import HeaderSection from "./components/HeaderContainer/HeaderSection"
+import CardsPage from "./components/CardsPageContainer/CardsPage"
 import './App.css';
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header/>
+      <HeaderSection/>
+      <CardsPage/>
     </div>
   );
 }

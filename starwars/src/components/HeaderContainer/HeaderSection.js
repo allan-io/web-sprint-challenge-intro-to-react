@@ -20,7 +20,7 @@ export const FavoriteCharacters = styled.div`
     justify-content: space-between;
 `
 
-const Header = () => {
+const HeaderSection = () => {
     return (
         <div className={"header-container"}>
             <UserSection>Allan Oliveira</UserSection>
@@ -33,4 +33,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default HeaderSection
