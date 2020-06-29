@@ -1,13 +1,14 @@
 import React from "react"
 import Character from "./Character"
 
-const CardsPage = () => {
+const CardsPage = ({ data }) => {
     return (
         <div className="cards-container">
-            <Character/>
-            <Character />
-            <Character />
-            <Character />
+            {data.map((char, i) => {
+                return (
+                    <Character char={char} key={i}/>
+                )
+            })}
         </div>
     )
 }

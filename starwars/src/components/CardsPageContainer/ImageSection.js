@@ -1,9 +1,17 @@
 import React from "react"
+import styled from "styled-components"
 
-const ImageSection = () => {
+export const CharImage = styled.img`
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 3rem;
+`
+
+const ImageSection = ({ char }) => {
     return (
         <div className="image-section">
-            butt
+            <CharImage src={char.image}/>
         </div>
     )
 }

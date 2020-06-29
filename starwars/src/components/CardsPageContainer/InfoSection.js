@@ -1,9 +1,12 @@
 import React from "react"
 
-const InfoSection = () => {
+const InfoSection = ({ char }) => {
     return (
         <div className="info-section">
-            hair: brown
+            <p>name: {char.name}</p>
+            <p>species: {char.species}</p>
+            <p>status: {char.status}</p>
+            <p>location: {char.location.name}</p>
         </div>
     )
 }

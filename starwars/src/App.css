@@ -3,7 +3,6 @@
 }
 /* write your parent styles in here for your App.js */
 .header-container {
-  background-color: blue;
   height: 6rem;
   width: 100%;
   display: flex;
@@ -13,17 +12,35 @@
 
 .cards-container {
   width: 80%;
-  height: 100vh;
-  background-color: red;
+  height: 100%;
   margin: 0 auto;
 }
 
 .characters {
-  width: 90%;
-  height: 20vh;
+  width: 70%;
+  height: 25vh;
   border: 1px black solid;
   margin: 1rem auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(109, 243, 22, .05)
+}
+
+.like-btn {
+  color: rgb(224, 225, 227);
+  position: relative;
+  right: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  color: rgb(204, 206, 210);
+}
+
+.info-section {
+  width: 400px;
+  text-align: start;
 }

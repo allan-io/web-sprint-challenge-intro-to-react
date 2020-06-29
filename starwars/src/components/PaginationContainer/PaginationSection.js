@@ -5,13 +5,13 @@ import "./PaginationSection.css"
 const PaginationSection = (props) => {
     return (
         <Pagination aria-label="Page navigation example">
-            <PaginationItem>
-                <PaginationLink first href="#" />
+            <PaginationItem disabled>
+                <PaginationLink disabled first href="#" />
             </PaginationItem>
-            <PaginationItem>
-                <PaginationLink previous href="#" />
+            <PaginationItem disabled>
+                <PaginationLink disabled previous href="#" />
             </PaginationItem>
-            <PaginationItem>
+            <PaginationItem active>
                 <PaginationLink href="#">
                     1
         </PaginationLink>
